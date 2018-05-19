@@ -1,0 +1,6 @@
+c:\users\kdr\documents\visual studio 2015\Projects\Budynki\Budynki\bin\Debug\Budynki.exe.config
+c:\users\kdr\documents\visual studio 2015\Projects\Budynki\Budynki\bin\Debug\Budynki.exe
+c:\users\kdr\documents\visual studio 2015\Projects\Budynki\Budynki\bin\Debug\Budynki.pdb
+c:\users\kdr\documents\visual studio 2015\Projects\Budynki\Budynki\obj\Debug\Budynki.csprojResolveAssemblyReference.cache
+c:\users\kdr\documents\visual studio 2015\Projects\Budynki\Budynki\obj\Debug\Budynki.exe
+c:\users\kdr\documents\visual studio 2015\Projects\Budynki\Budynki\obj\Debug\Budynki.pdb
