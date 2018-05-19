@@ -47,12 +47,21 @@ namespace Budynki
             else
             { d = FiltrujNowe; prog = 2000; }
             
+            Console.WriteLine("Za pomoca delegaty");
             foreach (Wieżowiec tmp in lista)
             {
                 if(d(tmp,prog))
                 {
                     Console.WriteLine("budynek:"+tmp.nazwa+" o wysokosci: " +tmp.Wysokosc+" rok budowy to: "+tmp.rokBudowy);
                 }
+            }
+
+            Console.WriteLine("Za pomoca lambda i where");
+            IEnumerable<Wieżowiec> lista1 = lista.Where(w => w.rokBudowy > 2000);
+            foreach (Wieżowiec tmp in lista1)
+            {        
+                    Console.WriteLine("budynek:" + tmp.nazwa + " o wysokosci: " + tmp.Wysokosc + " rok budowy to: " + tmp.rokBudowy);
+                
             }
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
